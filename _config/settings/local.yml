@@ -1,0 +1,16 @@
+name: local
+secret_key: "secret"
+debug: true
+app:
+  hostname: 0.0.0.0
+  port: 9000
+  logging:
+    level: DEBUG
+
+database:
+  driver: postgres
+  url: localhost:5432
+  dbname: prestige_db
+  sslmode: false
+  username: prestige
+  password: changeme
