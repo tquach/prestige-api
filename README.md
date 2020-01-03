@@ -52,16 +52,7 @@ We use Datadog for metrics. You can run a standalone docker container for Datado
 
 ## Database Schema
 
-Import all the scripts in the `_schema` folder:
-
-```
-⚡ psql -U prestige -h `docker-machine ip` -d prestige -a -f _config/schema/001_initial_schema.sql
-⚡ psql -U prestige -h `docker-machine ip` -d prestige -a -f _config/schema/002_add_trip_date.sql
-⚡ psql -U prestige -h `docker-machine ip` -d prestige -a -f _config/schema/003_add_destination.sql
-⚡ psql -U prestige -h `docker-machine ip` -d prestige -a -f _config/schema/004_alter_destinations.sql
-```
-
-It may prompt you for a password. You may need to install psql or alternatively, use [PgAdmin](www.pgadmin.org/download/macosx.php).
+TODO
 
 ## Starting up the application server in a container
 
